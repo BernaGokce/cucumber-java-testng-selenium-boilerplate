@@ -17,8 +17,8 @@ public class LoginWithoutCrossBrowser {
         //parameters
         String basePath = new File("").getAbsolutePath();
         String url = "https://www.hepsiburada.com/uyelik/giris";
-        String userEmail = "bernagokce92@gmail.com";
-        String userPass = "kubber";
+        String userEmail = "bernagokce@gmail.com";
+        String userPass = "password";
         String expected_data = "Hesabım";
         String browserType = "chrome";
         WebDriver driver;
